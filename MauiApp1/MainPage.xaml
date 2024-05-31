@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <StackLayout Margin="20,35,20,20">
+       
+
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <!-- Tamaño de la fuente mediano, centrado horizontalmente -->
+
+            <!-- Texto  -->
+            <Label.FormattedText>
+                <!-- Cadena de texto formateada -->
+                <FormattedString>
+
+                    <!-- Primer  texto -->
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Prueba 1</Span>
+                    <!-- Texto con tachado, negrita y color verde -->
+
+                    <!-- Segundo texto -->
+                    <Span FontAttributes="Italic" TextColor="Blue">Prueba2</Span>
+                    <!-- Texto en cursiva y color azul -->
+
+                    <!-- Tercer  texto -->
+                    <Span TextColor="Gray" TextDecorations="Strikethrough">Prueba 3</Span>
+                    <!-- Texto con tachado y color gris -->
+
+                </FormattedString>
+            </Label.FormattedText>
+
+        </Label>
+        <!-- Fin de la etiqueta Label -->
+
+    </StackLayout>
+ 
+</ContentPage>
